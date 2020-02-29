@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/light" />
+
+            <TextView
+                android:id="@+id/howtouse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableEnd="@drawable/ic_keyboard_arrow_right"
+                android:drawableRight="@drawable/ic_keyboard_arrow_right"
+                android:padding="10dp"
+                android:text="How to use?"
+                android:textColor="@color/blue_activated"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/light" />
+
+            <TextView
+                android:id="@+id/addfoodbankcode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableEnd="@drawable/ic_keyboard_arrow_right"
+                android:drawableRight="@drawable/ic_keyboard_arrow_right"
+                android:padding="10dp"
+                android:text="Add foodbank code"
+                android:textColor="@color/blue_activated"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="18dp"
+                android:background="@color/light" />
+
+            <TextView
+                android:id="@+id/editprofile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableEnd="@drawable/ic_keyboard_arrow_right"
+                android:drawableRight="@drawable/ic_keyboard_arrow_right"
+                android:padding="10dp"
+                android:text="Edit Profile"
+                android:onClick="editprofile"
+                android:textColor="@color/blue_activated"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/light" />
+
+            <TextView
+                android:id="@+id/account_tvChangePinCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableEnd="@drawable/ic_keyboard_arrow_right"
+                android:drawableRight="@drawable/ic_keyboard_arrow_right"
+                android:padding="10dp"
+                android:text="Change password"
+                android:textSize="18sp"
+                android:textColor="@color/blue_activated"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/light" />
+
+            <TextView
+                android:id="@+id/share"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableEnd="@drawable/ic_keyboard_arrow_right"
+                android:drawableRight="@drawable/ic_keyboard_arrow_right"
+                android:padding="10dp"
+                android:text="Share"
+                android:textSize="18dp"
+                android:textColor="@color/blue_activated"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/light" />
+
+            <TextView
+                android:id="@+id/followusonfb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableEnd="@drawable/ic_keyboard_arrow_right"
+                android:drawableRight="@drawable/ic_keyboard_arrow_right"
+                android:padding="10dp"
+                android:text="Follow us on Facebook"
+                android:textSize="18dp"
+                android:textColor="@color/blue_activated"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/light" />
+
+            <TextView
+                android:id="@+id/followusoninstagram"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableEnd="@drawable/ic_keyboard_arrow_right"
+                android:drawableRight="@drawable/ic_keyboard_arrow_right"
+                android:padding="10dp"
+                android:text="Follow us on Instagram"
+                android:textSize="18dp"
+                android:textColor="@color/blue_activated"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/light" />
+
+            <TextView
+                android:id="@+id/appinfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableEnd="@drawable/ic_keyboard_arrow_right"
+                android:drawableRight="@drawable/ic_keyboard_arrow_right"
+                android:padding="10dp"
+                android:text="App info"
+                android:textSize="18sp"
+                android:textColor="@color/blue_activated"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/light" />
+
+            <TextView
+                android:id="@+id/logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableEnd="@drawable/ic_keyboard_arrow_right"
+                android:drawableRight="@drawable/ic_keyboard_arrow_right"
+                android:padding="10dp"
+                android:text="Log out"
+                android:onClick="logout"
+                android:textSize="18sp"
+                android:textColor="@color/blue_activated"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/light" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

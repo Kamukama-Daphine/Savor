@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="finalyearproject.ReducingFoodWaste">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logohealth"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logohealth"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".DonorSettings"
+            android:label="Settings"
+            android:parentActivityName=".Homeuser"></activity>
+        <activity android:name=".EditProfile"
+            android:label="Edit profile"
+            android:parentActivityName=".DonorSettings"/>
+        <activity android:name=".RecipientList"
+            android:label="Recipient Control Center"
+            android:parentActivityName=".Homeuser"/>
+        <activity
+            android:name=".Homeuser"
+            android:label="Donor Dashboard" />
+        <activity
+            android:name=".DonorHome"
+            android:label="@string/title_activity_doctor_home" />
+        <activity
+            android:name=".RegisterRecipient"
+            android:label="Register a recipient"
+            android:parentActivityName=".Homeuser" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".SignIn" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+   <!-- <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>-->
+
+</manifest>
