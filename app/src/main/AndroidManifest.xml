@@ -5,9 +5,9 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
-        android:icon="@drawable/logohealth"
+        android:icon="@drawable/logofood"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/logohealth"
+        android:roundIcon="@drawable/logofood"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".DonorSettings"
@@ -21,10 +21,10 @@
             android:parentActivityName=".Homeuser"/>
         <activity
             android:name=".Homeuser"
-            android:label="Donor Dashboard" />
+            android:label="Dashboard" />
         <activity
             android:name=".DonorHome"
-            android:label="@string/title_activity_doctor_home" />
+            android:label="@string/title_activity_donor_home" />
         <activity
             android:name=".RegisterRecipient"
             android:label="Register a recipient"

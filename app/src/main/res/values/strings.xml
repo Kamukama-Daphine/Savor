@@ -1,7 +1,7 @@
 
 <resources>
-<string name="app_name">ReducingFoodWaste</string>
-<string name="title_activity_doctor_home">Home</string>
+<string name="app_name">SavorApp</string>
+<string name="title_activity_donor_home">Home</string>
 <string name="title_home">Home</string>
 <string name="title_dashboard">Dashboard</string>
 <string name="title_notifications">Notifications</string>
